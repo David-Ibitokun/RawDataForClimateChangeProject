@@ -35,10 +35,3 @@ credentials.json
 *.pem
 *.key
 
-# Data (raw downloads)
-project_data/raw_data/
-
-# Keep metadata and docs tracked
-!project_data/DATASOURCE.md
-!project_data/data_info.md
-!project_data/metadata/

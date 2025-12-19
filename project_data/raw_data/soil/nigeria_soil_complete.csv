@@ -1,0 +1,19 @@
+Geopolitical_Zone,State,Latitude,Longitude,Elevation_m,Soil_Type,Soil_Texture,Soil_pH,Organic_Matter_Percent,Nitrogen_ppm,Phosphorus_ppm,Potassium_ppm,Cation_Exchange_Capacity,Bulk_Density,Water_Holding_Capacity_Percent
+North-West,Kaduna,10.52,7.44,610.0,Ferruginous,Sandy Clay Loam,6.2,0.15,83.3,1.5,59.3,0.8,0.01,25
+North-West,Kano,12.0,8.52,477.0,Ferruginous,Sandy Clay Loam,7.0,0.13,83.3,1.1,72.7,1.2,0.01,25
+North-West,Sokoto,13.06,5.24,291.0,Ferruginous,Sandy Clay Loam,6.5,0.11,72.5,1.2,80.5,1.1,0.01,25
+North-East,Borno,11.85,13.09,329.0,Ferruginous,Loam,6.3,0.06,30.5,0.9,72.7,0.6,0.01,30
+North-East,Bauchi,10.31,9.84,617.0,Ferruginous,Sandy Clay Loam,6.8,0.13,72.5,1.7,72.7,1.1,0.01,25
+North-East,Adamawa,9.33,12.38,167.0,Ferruginous,Sandy Clay Loam,6.3,0.11,51.3,1.2,80.5,0.9,0.01,25
+North-Central,Benue,7.73,8.54,87.0,Ferruginous,Loam,6.0,0.11,116.3,1.2,59.3,0.7,0.01,30
+North-Central,Plateau,9.93,8.89,1186.0,Ferruginous,Sandy Clay Loam,6.7,0.18,83.3,2.5,98.5,1.1,0.01,25
+North-Central,Niger,9.93,6.54,257.0,Ferruginous,Loam,6.0,0.15,72.5,1.2,59.3,0.7,0.01,30
+South-West,Oyo,7.85,3.93,303.0,Ferruginous,Loam,6.2,0.13,94.2,1.5,72.7,0.6,0.01,30
+South-West,Ogun,7.16,3.35,97.0,Ferruginous,Loam,5.8,0.21,138.8,1.7,133.3,0.7,0.01,30
+South-West,Ondo,7.25,5.19,345.0,Ferruginous,Sandy Clay Loam,6.3,0.21,127.5,1.7,80.5,0.9,0.01,25
+South-East,Enugu,6.86,7.39,470.0,Acidic,Sandy Clay Loam,5.4,0.3,127.5,1.1,65.7,1.0,0.01,25
+South-East,Abia,5.45,7.52,129.0,Acidic,Loam,5.3,0.36,138.8,1.2,59.3,0.9,0.01,30
+South-East,Ebonyi,6.27,8.01,71.0,Ferruginous,Sandy Clay Loam,5.5,0.21,105.2,1.5,80.5,1.1,0.01,25
+South-South,Rivers,4.82,7.01,9.0,Ferruginous,Sandy Clay Loam,5.8,0.3,173.5,4.6,72.7,1.0,0.01,25
+South-South,Delta,5.68,5.92,17.0,Acidic,Sandy Clay Loam,5.1,0.43,161.8,1.7,80.5,1.0,0.01,25
+South-South,Akwa Ibom,5.01,7.85,57.0,Acidic,Sandy Clay Loam,5.4,0.3,127.5,4.6,72.7,1.0,0.01,25
