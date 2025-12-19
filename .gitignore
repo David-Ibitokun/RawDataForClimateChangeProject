@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+download_log.txt
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sensitive files
+.env
+*.env
+credentials.json
+*.pem
+*.key
+
+# Data (raw downloads)
+project_data/raw_data/
+
+# Keep metadata and docs tracked
+!project_data/DATASOURCE.md
+!project_data/data_info.md
+!project_data/metadata/

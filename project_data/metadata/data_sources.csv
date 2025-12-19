@@ -1,0 +1,8 @@
+Data_Type,Source_Name,Source_URL,Data_Period,Spatial_Resolution,Temporal_Resolution,Reliability_Score,Notes
+CO2,NOAA Global Monitoring Laboratory,https://gml.noaa.gov/ccgg/trends/,1990-2023,Global,Monthly,0.95,Mauna Loa Observatory monthly mean CO2 (ppm). Script uses plain-text file parsing and ignores comment lines.
+Temperature,NASA POWER,https://power.larc.nasa.gov/,1990-2023,0.5° × 0.5°,Daily/Monthly,0.92,NASA POWER T2M (2m temperature). Script requests daily or monthly point endpoint and aggregates to monthly.
+Rainfall,NASA POWER,https://power.larc.nasa.gov/,1990-2023,0.5° × 0.5°,Daily/Monthly,0.90,Precipitation (PRECTOTCORR) corrected variable; daily values are summed/aggregated to monthly totals in the script.
+Humidity,NASA POWER,https://power.larc.nasa.gov/,1990-2023,0.5° × 0.5°,Daily/Monthly,0.90,Relative humidity at 2m (RH2M). Aggregated to monthly means by the script.
+Crop Yield,FAO Statistics,https://www.fao.org/faostat/,1990-2023,National,Annual,0.85,Manual FAOSTAT export required (see README_FAO_DOWNLOAD.txt). Use filters: Country=Nigeria, Items=crops list, Years=1990-2023.
+Soil,ISDA Soil API,https://api.isda-africa.com,1990-2023,Point (site coordinates),Static/profile,0.80,Soil properties (pH, organic carbon, sand/clay, nutrients). Requires authentication; script transforms some fields (scaling, back_transform) and computes texture/derived metrics.
+Elevation,Open-Meteo Elevation,https://api.open-meteo.com/v1/elevation,1990-2023,Point (lat/lon),Static,0.90,Simple elevation lookup (meters) used to supplement soil profiles and metadata.
